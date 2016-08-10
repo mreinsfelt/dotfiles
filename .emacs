@@ -4,10 +4,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (misterioso)))
- '(initial-buffer-choice "~/org/todo.org")
+ '(initial-buffer-choice "~/Dropbox/org/todo.org")
  '(org-agenda-files
    (quote
-    ("~/org/vstd.org" "~/org/todo.org" "~/org/cardisoft.org" "~/org/mcrt.org"))))
+    ("~/Dropbox/org/vstd.org" "~/Dropbox/org/todo.org" "~/Dropbox/org/cardisoft.org" "~/Dropbox/org/mcrt.org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -17,7 +17,7 @@
 (global-linum-mode 1) ;display line numbers
 (tool-bar-mode -1) ; disable toolbar
 (scroll-bar-mode -1) ; disable scrollbar
-(load-theme 'adwaita)
+;;(load-theme 'adwaita)
 
 ;;(global-set-key (kbd "C-w") 'backward-kill-word) ; Ctrl+
 (global-set-key (kbd "C-z") 'undo) ; set undo
